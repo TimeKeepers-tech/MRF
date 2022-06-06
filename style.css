@@ -781,13 +781,13 @@ blockquote cite:before {
   border-radius: 0;
   border: none;
   transition: all 0.3s ease;
-  background: #BB0B0B;
+  background: #350e5b;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
 }
 .rs-carousel .owl-dots .owl-dot:hover,
 .rs-carousel .owl-dots .owl-dot.active {
   width: 40px;
-  background: #BB0B0B;
+  background: #350e5b;
   opacity: .5;
 }
 /* ------------------------------------
@@ -874,6 +874,7 @@ blockquote cite:before {
 }
 .readon.consultant.discover {
   padding: 15px 40px 15px 40px;
+  border-radius: 30px;
 }
 .readon.consultant.discover.orange-more {
   background: #350e5b;
@@ -1838,7 +1839,7 @@ blockquote cite:before {
   height: 5px;
   width: 5px;
   display: block;
-  background: #A45EE9;
+  background: #350e5b;
   border-radius: 50%;
   transition: none;
   list-style: none;
@@ -1852,7 +1853,7 @@ blockquote cite:before {
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot6,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot7,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot8 {
-  background: #A45EE9;
+  background: #350e5b;
 }
 .full-width-header .rs-header.header-transparent {
   position: absolute;
@@ -2196,7 +2197,7 @@ blockquote cite:before {
   padding-bottom: 25px;
 }
 .full-width-header .right_menu_togle .canvas-logo img {
-  max-height: 28px;
+  max-height: 75px;
 }
 .full-width-header .right_menu_togle .offcanvas-text p {
   font-size: 16px;
@@ -6042,8 +6043,8 @@ body .search-modal .close:hover {
 .rs-patter-section .logo-img a .mains-logos {
   transition: all 0.3s ease-in-out;
   display: block;
-  filter: grayscale(1);
-  height: 110px;
+ /* filter: grayscale(1)*/;
+  height: 100px;
 }
 .rs-patter-section .logo-img a:hover .hovers-logos {
   display: block;
@@ -6400,6 +6401,7 @@ body .search-modal .close:hover {
   font-size: 26px;
   line-height: 35px;
   font-weight: 700;
+
 }
 .rs-inner-blog .blog-item .blog-content .blog-title a {
   color: #0a0a0a;
